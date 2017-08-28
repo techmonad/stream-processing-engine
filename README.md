@@ -1,4 +1,4 @@
-# real-time-stream-processing-engine
+# stream-processing-engine
 
 This is an example of real time stream processing using Spark Streaming, Kafka & Elasticsearch.
 
