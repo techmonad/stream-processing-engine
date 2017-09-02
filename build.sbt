@@ -1,4 +1,4 @@
-name := """real-time-stream-processing-engine"""
+name := """stream-processing-engine"""
 
 version := "1.0"
 
