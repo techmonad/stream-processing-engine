@@ -28,7 +28,7 @@ This is an example of near real time stream processing using Spark Streaming, Ka
 
  Clone and run in local mode:
 
-        $ git@github.com:techmonad/stream-processing-engine.git
+        $ git clone git@github.com:techmonad/stream-processing-engine.git
         $ cd stream-processing-engine
         $ sbt run
         
