@@ -1,4 +1,4 @@
-package com.knoldus.streaming.core
+package com.techmonad.streaming.core
 
 import org.scalatest.{Matchers, WordSpecLike}
 

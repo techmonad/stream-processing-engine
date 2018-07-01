@@ -1,4 +1,4 @@
-package com.knoldus.streaming
+package com.techmonad.streaming
 
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}

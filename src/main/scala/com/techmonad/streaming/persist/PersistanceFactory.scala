@@ -1,4 +1,4 @@
-package com.knoldus.streaming.persist
+package com.techmonad.streaming.persist
 
 import org.apache.spark.streaming.dstream.DStream
 import org.elasticsearch.spark._

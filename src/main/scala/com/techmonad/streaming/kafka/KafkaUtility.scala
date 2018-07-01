@@ -1,4 +1,4 @@
-package com.knoldus.streaming.kafka
+package com.techmonad.streaming.kafka
 
 import org.apache.kafka.clients.consumer.ConsumerRecord
 import org.apache.kafka.common.serialization.StringDeserializer

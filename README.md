@@ -1,13 +1,13 @@
 # stream-processing-engine
 
-This is an example of real time stream processing using Spark Streaming, Kafka & Elasticsearch.
+This is an example of near real time stream processing using Spark Streaming, Kafka & Elasticsearch.
 
 ![alt tag](/doc/stream_processing.png)
 
 ### Pre-Requisites for this project
 
 #### Elasticsearch Setup
-  i) [Download](https://www.elastic.co/downloads/elasticsearch) the Elasticsearch 5.0.0-alpha5 or latest version  and unzip it.
+  i) [Download](https://www.elastic.co/downloads/elasticsearch) the Elasticsearch 6.3.0 or latest version  and unzip it.
 
   ii) Run the following command.
 
@@ -30,10 +30,6 @@ This is an example of real time stream processing using Spark Streaming, Kafka &
 
         $ git@github.com:techmonad/stream-processing-engine.git
         $ cd stream-processing-engine
-        $ bin/activator run
+        $ sbt run
         
         
-### Limitations
- 1) Elasticsearch 5.0.0-alpha5 is not production ready.
- 
- 2) Kafka-0.10.0.1 is experimental in current spark version(spark-2.0.0).

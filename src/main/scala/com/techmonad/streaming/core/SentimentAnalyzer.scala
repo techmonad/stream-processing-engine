@@ -1,5 +1,4 @@
-package com.knoldus.streaming.core
-
+package com.techmonad.streaming.core
 
 import java.util.Properties
 

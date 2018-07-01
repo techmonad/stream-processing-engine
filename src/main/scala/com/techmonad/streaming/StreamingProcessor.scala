@@ -1,14 +1,13 @@
-package com.knoldus.streaming
+package com.techmonad.streaming
 
-import com.knoldus.streaming.core.SentimentAnalyzer
-import com.knoldus.streaming.json.JsonHelper._
-import com.knoldus.streaming.kafka.KafkaUtility
-import com.knoldus.streaming.persist.PersistenceFactory
-import com.knoldus.streaming.util.DateUtil
+import com.techmonad.streaming.core.SentimentAnalyzer
+import com.techmonad.streaming.json.JsonHelper._
+import com.techmonad.streaming.kafka.KafkaUtility
+import com.techmonad.streaming.persist.PersistenceFactory
+import com.techmonad.streaming.util.DateUtil
 import org.apache.spark.streaming.StreamingContext
 
 object StreamingProcessor {
-
 
   def process(ssc: StreamingContext, topics: List[String], indexName: String, `type`: String): Unit = {
     val messages = KafkaUtility.createDStreamFromKafka(ssc, topics)

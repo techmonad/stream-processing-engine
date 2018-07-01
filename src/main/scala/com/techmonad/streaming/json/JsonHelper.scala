@@ -1,5 +1,4 @@
-package com.knoldus.streaming.json
-
+package com.techmonad.streaming.json
 
 import org.json4s.DefaultFormats
 import org.json4s.JsonAST.JValue
